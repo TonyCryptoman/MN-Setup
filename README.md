@@ -71,7 +71,6 @@ Use this instructions to install the wallet,  and setup single masternode on Win
 2. Start putty and login as root user. (Root password and server ip address are on your VPS management page)
 3. Recommended to run following command before starting the installation script `apt-get update && apt-get upgrade`
 4. To start the installation, paste this command and enter your private key during the process:
-- For local wallets running on Windows use this command:
 ```
 bash <( curl https://raw.githubusercontent.com/EVOS-DEV/MN-Setup/master/install.sh )
 
